@@ -1,4 +1,5 @@
-FROM alpine:3.7
+# Datei: webserver/apache/alpine/Dockerfile
+FROM alpine:3.9
 
 RUN apk --no-cache add apache2 apache2-utils
 RUN mkdir -p /run/apache2

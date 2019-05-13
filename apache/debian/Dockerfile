@@ -1,4 +1,4 @@
-# Dockerfile for docbuc/apache
+# Datei: webserver/apache/debian/Dockerfile (docbuc/apache)
 FROM debian:stretch
 
 RUN apt-get update && apt-get install -y \

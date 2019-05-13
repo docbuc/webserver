@@ -1,4 +1,5 @@
-FROM node:10
+# Datei: webserver/node-express/Dockerfile-dev (docbuc/node-express-dev)
+FROM node:12
 WORKDIR /src
 RUN npm i -g express-generator nodemon
 USER node
