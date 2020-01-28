@@ -1,5 +1,5 @@
 # Datei: webserver/apache/debian/Dockerfile (docbuc/apache)
-FROM debian:stretch
+FROM debian:buster
 
 RUN apt-get update && apt-get install -y \
   apache2 \

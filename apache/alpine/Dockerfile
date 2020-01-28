@@ -1,5 +1,5 @@
-# Datei: webserver/apache/alpine/Dockerfile
-FROM alpine:3.9
+# Datei: webserver/apache/alpine/Dockerfile (docbuc/apache:alpine)
+FROM alpine:3.10
 
 RUN apk --no-cache add apache2 apache2-utils
 RUN mkdir -p /run/apache2
