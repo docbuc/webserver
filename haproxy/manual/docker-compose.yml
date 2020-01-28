@@ -1,3 +1,4 @@
+# Datei: webserver/haproxy/manual/docker-compose.yml
 version: "3"
 services:
   haproxy:

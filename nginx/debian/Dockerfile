@@ -1,5 +1,5 @@
-# Dockerfile for docbuc/nginx
-FROM debian:stretch
+# Datei: webserver/nginx/debian/Dockerfile (docbuc/nginx)
+FROM debian:buster
 
 RUN apt-get update && apt-get install -y \
   nginx \
