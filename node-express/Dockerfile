@@ -1,5 +1,5 @@
 # Datei: webserver/node-express/Dockerfile (docbuc/node-express)
-FROM node:12
+FROM node:15
 WORKDIR /src
 COPY ./src/package.json /src/
 RUN npm i --production
