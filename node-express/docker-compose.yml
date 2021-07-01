@@ -14,15 +14,15 @@ services:
     environment:
       DEBUG: "server"
     command: [ "nodemon", "bin/www" ]
-  prod:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: docbuc/node-express
-    ports:
-      - 8080:3000
-    environment:
-      DEBUG: "src"
-
+  # prod:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   image: docbuc/node-express
+  #   ports:
+  #     - 8080:3000
+  #   environment:
+  #     DEBUG: "src"
+  #
 volumes:
   node_exp_modules:
