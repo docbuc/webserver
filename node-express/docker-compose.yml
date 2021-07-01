@@ -12,7 +12,7 @@ services:
     ports:
       - 8080:3000
     environment:
-      DEBUG: "server"
+      DEBUG: "src"
     command: [ "nodemon", "bin/www" ]
   # prod:
   #   build:
